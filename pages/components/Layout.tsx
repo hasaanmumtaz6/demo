@@ -2,6 +2,7 @@ import React, { ReactNode } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 import Head from "next/head";
+import Navbar from "./Navbar";
 
 interface LayoutProps {
   children: ReactNode;
@@ -18,6 +19,7 @@ const Layout = ({ children, title, description, keywords }: LayoutProps) => {
         <meta name="description" content={description} />
         <meta name="keywords" content={keywords} />
       </Head>
+      <Navbar />
       <Header />
       <div className="main-content-box">{children}</div>
       <Footer />
