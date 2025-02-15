@@ -1,6 +1,6 @@
 .navbar {
-  @apply w-full px-[2rem] py-[1rem] bg-[#2B292A] text-white flex items-center justify-end gap-[2rem];
+  @apply w-full px-[8rem] py-[1rem] bg-[#2B292A] text-white flex items-center justify-end gap-[2rem];
 }
-.navbar a{
-    @apply flex items-center justify-center gap-[0.75rem];
+.navbar a {
+  @apply flex items-center justify-center gap-[0.75rem];
 }

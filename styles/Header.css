@@ -1,0 +1,15 @@
+.header {
+  @apply w-full flex items-center justify-between gap-[2rem] px-[8rem] py-[2rem];
+}
+.logo-box {
+  @apply w-[12rem] h-auto;
+}
+.logo-box img {
+  @apply w-full h-full;
+}
+.header .tabs {
+  @apply flex items-center gap-[1.25rem] font-semibold;
+}
+.header .tabs a {
+  @apply text-black hover:text-[#2B292A] transition-all duration-700 ease-in-out;
+}

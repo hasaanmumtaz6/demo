@@ -13,7 +13,7 @@ interface LayoutProps {
 
 const Layout = ({ children, title, description, keywords }: LayoutProps) => {
   return (
-    <main className="layout-container">
+    <main className="layout">
       <Head>
         <title>{title}</title>
         <meta name="description" content={description} />
