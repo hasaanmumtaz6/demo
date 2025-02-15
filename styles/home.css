@@ -1,24 +1,84 @@
-/* homebanner */
-.home-banner,
-.banner-Image-Box {
-  @apply relative w-full h-full;
+/* Homebanner */
+.home-banner {
+  @apply bg-[#F4F4F4] w-full flex items-center justify-between gap-[4rem] px-[8rem] py-[2rem];
 }
-.banner-Image-Box img {
+.home-banner-content {
+  @apply flex flex-col gap-[0.5rem] w-[55%];
+}
+.home-banner-content b {
+  @apply text-[1.25rem] leading-[1.5rem] font-normal text-[#FB4A4E];
+}
+.home-banner-content h1 {
+  @apply text-[3.25rem] leading-[3.5rem] font-bold text-[#FB4A4E];
+}
+.home-banner-content h2 {
+  @apply text-[2rem] leading-[2rem] font-bold text-black;
+}
+.home-banner-content h3 {
+  @apply text-[1.5rem] leading-[2rem] font-bold text-black;
+}
+.cta-btn {
+  @apply flex items-center gap-[1rem] mt-[1rem];
+}
+.social-media-links {
+  @apply flex items-center gap-[0.5rem] mt-[0.5rem];
+}
+.social-media-links a svg {
+  @apply text-[#FB4A4E];
+}
+
+.home-banner-image-conatiner {
+  @apply flex flex-col gap-[0.5rem] relative w-[45%];
+}
+.home-banner-image-conatiner .illustration-pic {
   @apply w-full h-full;
 }
-.banner-content-box {
-  @apply absolute top-[2rem] left-0 overflow-hidden text-white w-full px-[8rem] py-[2rem] h-full flex items-center justify-start;
+.home-banner-image-conatiner .illustration-pic img {
+  @apply w-full h-full;
 }
-.content-conatiner {
-  @apply w-full h-full flex items-start justify-start flex-col gap-[1rem];
+.home-banner-image-conatiner p {
+  @apply text-[1rem] text-[#9E9E9E];
 }
-.banner-content-box h1 {
-  @apply text-[3.25rem] leading-[4rem] w-1/2 font-bold;
+.home-banner-image-conatiner p b {
+  @apply text-[#FB4A4E];
 }
-.banner-content-box p {
-  @apply text-[1.25rem] leading-[1.5rem] w-1/2;
+.contact-number {
+  @apply bg-[#FB4A4E] text-white rounded-md w-fit px-[1rem] py-[0.325rem] text-[1.5rem] absolute top-0 left-[0.25rem] shadow-md shadow-gray-300 select-none;
 }
-.banner-content-box a {
-  @apply border-[1px] border-white mt-[1rem];
+.agent-call-box {
+  @apply rounded-md absolute top-[3rem] right-[-1.5rem] bg-[#fff] flex items-center justify-center flex-col px-[1rem] py-[1.5rem] shadow-md shadow-gray-300 select-none;
 }
-/* homebanner */
+.agent-call-box b {
+  @apply text-[#000] font-bold text-[0.75rem];
+}
+.agent-call-box p {
+  @apply text-[#9E9E9E] text-[0.75rem];
+}
+.agent-call-box svg {
+  @apply text-[#808080] text-[1.5rem];
+}
+.clients-pics-container {
+  @apply absolute bottom-[6.5rem] right-[-1.5rem] bg-[white] w-fit px-[1.5rem] py-[1rem] rounded-md flex gap-[1rem] shadow-md shadow-gray-300 select-none;
+}
+.clients-pics-container span h4 {
+  @apply font-bold;
+}
+.clients-pics-box {
+  @apply flex items-center;
+}
+.clients-pics-box img {
+  @apply w-[2rem] h-[2rem] relative;
+}
+.img-client-1 {
+  @apply top-0 -right-[1.125rem];
+}
+.img-client-2 {
+  @apply top-0 -right-[0.75rem];
+}
+.img-client-3 {
+  @apply top-0 -right-[0.5rem];
+}
+.img-client-4 {
+  @apply top-0 right-0;
+}
+/* Homebanner */

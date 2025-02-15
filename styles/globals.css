@@ -19,6 +19,14 @@ body {
 .layout {
   @apply w-full h-full;
 }
+
+.primary-btn,
+.secondry-btn {
+  @apply w-fit px-[1.5rem] py-[0.5rem] rounded-md;
+}
 .primary-btn {
-  @apply w-fit px-[1.5rem] py-[0.5rem] rounded-full bg-[#EA4142] text-white;
+  @apply bg-[#FB4A4E] text-white;
+}
+.secondry-btn {
+  @apply border-[1px] border-[#FB4A4E] text-[#FB4A4E];
 }

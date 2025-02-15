@@ -2,14 +2,17 @@
   @apply w-full flex items-center justify-between gap-[2rem] px-[8rem] py-[2rem];
 }
 .logo-box {
-  @apply w-[12rem] h-auto;
+  @apply w-[11.25rem] h-[70px] flex;
 }
 .logo-box img {
   @apply w-full h-full;
 }
-.header .tabs {
+.tab_actbtn {
+  @apply flex items-center gap-[1.25rem];
+}
+.tabs {
   @apply flex items-center gap-[1.25rem] font-semibold;
 }
-.header .tabs a {
-  @apply text-black hover:text-[#2B292A] transition-all duration-700 ease-in-out;
+.tabs a, .log-in-user {
+  @apply text-[#6A6A6A] hover:text-[#FB4A4E] transition-all duration-700 ease-in-out;
 }
