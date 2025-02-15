@@ -82,3 +82,30 @@
   @apply top-0 right-0;
 }
 /* Homebanner */
+
+/* vision-container */
+.vision-container {
+  @apply w-full py-[2rem] px-[8rem] gap-[1rem] flex flex-col justify-center items-center;
+}
+.vision-container p {
+  @apply text-[#FB4A4E] text-[1.125rem];
+}
+.vision-container h2 {
+  @apply text-[#494949] text-[1.5rem] font-bold text-center w-[45%];
+}
+.vision-card-box {
+  @apply w-[8.25rem] h-[9.75rem] bg-[#F4F4F4] rounded-lg flex flex-col gap-[0.5rem] items-center justify-start p-[1.5rem] hover:shadow-md hover:shadow-gray-300 transition-all duration-700 ease-in-out;
+}
+.vision-card-box svg {
+  @apply text-[#FB4A4E];
+}
+.vision-card-box svg {
+  @apply text-[#FB4A4E] text-[4rem] w-[full] h-[70%];
+}
+.vision-card-box a {
+  @apply text-[#455A64] text-[0.75rem] text-center font-bold;
+}
+.vision-card-container {
+  @apply flex items-center justify-center w-full flex-wrap gap-[3rem];
+}
+/* vision-container */
