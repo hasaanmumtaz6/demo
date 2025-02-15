@@ -1,0 +1,24 @@
+/* homebanner */
+.home-banner,
+.banner-Image-Box {
+  @apply relative w-full h-full;
+}
+.banner-Image-Box img {
+  @apply w-full h-full;
+}
+.banner-content-box {
+  @apply absolute top-[2rem] left-0 overflow-hidden text-white w-full px-[8rem] py-[2rem] h-full flex items-center justify-start;
+}
+.content-conatiner {
+  @apply w-full h-full flex items-start justify-start flex-col gap-[1rem];
+}
+.banner-content-box h1 {
+  @apply text-[3.25rem] leading-[4rem] w-1/2 font-bold;
+}
+.banner-content-box p {
+  @apply text-[1.25rem] leading-[1.5rem] w-1/2;
+}
+.banner-content-box a {
+  @apply border-[1px] border-white mt-[1rem];
+}
+/* homebanner */

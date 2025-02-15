@@ -19,3 +19,6 @@ body {
 .layout {
   @apply w-full h-full;
 }
+.primary-btn {
+  @apply w-fit px-[1.5rem] py-[0.5rem] rounded-full bg-[#EA4142] text-white;
+}
