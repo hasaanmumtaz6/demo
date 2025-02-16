@@ -4,6 +4,7 @@ import HomeBanner from "./components/HomeBanner";
 import Vision from "./components/Vision";
 import ContactHome from "./components/ContactHome";
 import OfficeLocation from "./components/OfficeLocation";
+import ClientReviews from "./components/ClientReviews";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
         <Vision />
         <ContactHome />
         <OfficeLocation />
+        <ClientReviews />
         <p>Home Page</p>
       </div>
     </Layout>
