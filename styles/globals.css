@@ -21,12 +21,17 @@ body {
 }
 
 .primary-btn,
-.secondry-btn {
+.secondry-btn,
+.third-btn {
   @apply w-fit px-[1.5rem] py-[0.5rem] rounded-md;
 }
-.primary-btn {
+.primary-btn,
+.third-btn {
   @apply bg-[#FB4A4E] text-white;
 }
 .secondry-btn {
-  @apply border-[1px] border-[#FB4A4E] text-[#FB4A4E];
+  @apply border-[1px] border-[#FB4A4E] bg-white text-[#FB4A4E];
+}
+.third-btn {
+  @apply rounded-full;
 }
