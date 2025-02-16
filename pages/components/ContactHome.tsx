@@ -23,10 +23,10 @@ const ContactHome = () => {
             <div className="contact-client-pic-box">
               <h3>Happy Client</h3>
               <div>
-                <Image src={client4} alt="client4-contect-section" />
-                <Image src={client5} alt="client5-contect-section" />
-                <Image src={client6} alt="client6-contect-section" />
-                <Image src={client7} alt="client7-contect-section" />
+                <Image src={client4} className="client4" alt="client4-contect-section" />
+                <Image src={client5} className="client5" alt="client5-contect-section" />
+                <Image src={client6} className="client6" alt="client6-contect-section" />
+                <Image src={client7} className="client7" alt="client7-contect-section" />
               </div>
             </div>
             <p>+2.5K</p>

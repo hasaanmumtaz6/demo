@@ -152,7 +152,7 @@
   @apply bg-[#EE6C4D] right-[10%] top-[10rem] rounded-[0.125rem] w-[0.75rem] h-[0.75rem];
 }
 .contact-happy-client {
-  @apply flex items-end select-none absolute -top-[6rem] right-[-10%] justify-between w-fit bg-white rounded-[0.75rem] shadow-md shadow-gray-300 px-[1rem] py-[0.5rem] gap-[1rem];
+  @apply flex items-end select-none absolute -top-[6rem] right-[-10%] justify-between w-fit bg-white rounded-[0.75rem] shadow-md shadow-gray-300 pl-[1rem] pr-[2rem] py-[0.5rem] gap-[0.5rem];
 }
 .contact-client-pic-box {
   @apply flex flex-col items-start justify-start gap-[0.35rem];
@@ -163,7 +163,88 @@
 .contact-client-pic-box div img {
   @apply relative rounded-full w-[2rem] h-[2rem];
 }
+.client4 {
+  @apply left-0;
+}
+.client5 {
+  @apply left-[-0.4rem];
+}
+.client6 {
+  @apply left-[-0.8rem];
+}
+.client7 {
+  @apply left-[-1.3rem];
+}
 .contact-happy-client p {
-  @apply text-[#EE6C4D];
+  @apply text-[#EE6C4D] font-semibold;
 }
 /* contact-home-section */
+
+/* office-location */
+.office-location {
+  @apply w-full flex flex-col gap-[0.75rem] items-center justify-center;
+}
+.office-location h2 {
+  @apply text-[2.5rem] leading-[2.5rem] font-bold;
+}
+.office-location p {
+  @apply text-[1rem] leading-[1rem] text-[#6A6A6A] font-normal mb-[2rem];
+}
+.map-pic-box {
+  @apply select-none relative;
+}
+.location {
+  @apply absolute w-fit px-[2rem] py-[1rem] rounded-xl flex items-center justify-between gap-[0.5rem];
+}
+.location div img {
+  @apply w-[1rem] h-auto;
+}
+.location p {
+  @apply w-[200px] mb-0;
+}
+.location1 {
+  @apply bg-[#fff] top-[5%] left-[8rem] border-[1px] border-gray-300 shadow-md shadow-gray-200;
+}
+.location2 {
+  @apply bg-[#fff] top-[25%] -left-[8rem] border-[1px] border-gray-300 shadow-md shadow-gray-200;
+}
+.location3 {
+  @apply bg-[#fff] top-[27%] -right-[2rem] border-[1px] border-gray-300 shadow-md shadow-gray-200;
+}
+.location4 {
+  @apply bg-[#fff] bottom-[30%] right-[12rem] border-[1px] border-gray-300 shadow-md shadow-gray-200;
+}
+.location5 {
+  @apply bg-[#FB4A4E] bottom-[35%] -left-[5rem] shadow-md shadow-gray-200;
+}
+.location1 h3 {
+  @apply text-[0.75rem] font-bold text-[#FB4A4E];
+}
+.location2 h3 {
+  @apply text-[0.75rem] font-bold text-[#FB4A4E];
+}
+.location3 h3 {
+  @apply text-[0.75rem] font-bold text-[#FB4A4E];
+}
+.location4 h3 {
+  @apply text-[0.75rem] font-bold text-[#FB4A4E];
+}
+.location5 h3 {
+  @apply text-[0.75rem] font-bold text-white;
+}
+.location1 p {
+  @apply text-[0.625rem] font-normal text-[#6A6A6A];
+}
+.location2 p {
+  @apply text-[0.625rem] font-normal text-[#6A6A6A];
+}
+.location3 p {
+  @apply text-[0.625rem] font-normal text-[#6A6A6A];
+}
+.location4 p {
+  @apply text-[0.625rem] font-normal text-[#6A6A6A];
+}
+.location5 p {
+  @apply text-[0.625rem] font-normal text-[#FFFFFF];
+}
+/* office-location */
