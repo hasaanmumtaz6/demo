@@ -5,6 +5,7 @@ import Vision from "./components/Vision";
 import ContactHome from "./components/ContactHome";
 import OfficeLocation from "./components/OfficeLocation";
 import ClientReviews from "./components/ClientReviews";
+import OurConsultants from "./components/OurConsultants";
 
 const Home = () => {
   return (
@@ -19,7 +20,7 @@ const Home = () => {
         <ContactHome />
         <OfficeLocation />
         <ClientReviews />
-        <p>Home Page</p>
+        <OurConsultants />
       </div>
     </Layout>
   );

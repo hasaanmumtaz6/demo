@@ -288,3 +288,23 @@
   @apply text-[#39425D];
 }
 /* Client-Reviews */
+
+/* Our-Consultants */
+.Our-Consultants {
+  @apply w-full h-full px-[8rem] py-[4rem] flex flex-col items-center justify-center;
+}
+.Our-Consultants h2 {
+  @apply text-[3.25rem] leading-[3.25rem] font-bold text-[#293241];
+}
+.Our-Consultants p {
+  @apply text-[1rem] font-normal text-[#6A6A6A] mb-[4rem];
+}
+.consultant-card-box {
+  @apply flex flex-wrap items-center justify-center gap-[4rem] w-full;
+}
+.thumbnail-pic-container {
+  @apply w-[calc(50%-4rem)];
+}
+.thumbnail-pic-container img {
+  @apply w-full h-full rounded-[0.5rem];
+}
