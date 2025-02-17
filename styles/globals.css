@@ -53,6 +53,23 @@ body {
     @apply rounded-full;
   }
 }
+@media (max-width: 980px) and (min-width: 881px) {
+  .primary-btn,
+  .secondry-btn,
+  .third-btn {
+    @apply w-fit px-[1.5rem] py-[0.5rem] text-[0.75rem] rounded-md;
+  }
+  .primary-btn,
+  .third-btn {
+    @apply bg-[#FB4A4E] text-white;
+  }
+  .secondry-btn {
+    @apply border-[1px] border-[#FB4A4E] bg-white text-[#FB4A4E];
+  }
+  .third-btn {
+    @apply rounded-full;
+  }
+}
 
 /* 
 screen sizez
